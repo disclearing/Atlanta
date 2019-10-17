@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hub">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/hub/hub.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

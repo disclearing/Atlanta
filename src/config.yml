@@ -1,0 +1,145 @@
+license: ''
+
+scoreboard:
+  title: '&b&lAtlanta &f| &f&lHub'
+  header: '&7&m--------------------'
+  player-count: '&b&lOnline Players:'
+  count: '&f%online% / 1000'
+  player-rank: '&b&lCurrent Rank:'
+  rank: '&f%rank%'
+  current-queue: '&b&lQueueing For:'
+  queue-name: '&f%queue%'
+  queue-position: '&7%position% / %queue_total%'
+  parser: '&7&m--------------------'
+  base-text: '&7store.atlanta.xyz'
+  footer: '&7&m--------------------'
+
+STORE_LINK: '&bStore: &fstore.exempvp.net'
+DISCORD_LINK: '&bDiscord: &fdiscord.exempvp.net'
+teamspeak_ip: '&bTeamspeak: &fts.exempvp.net'
+no_perm_message: '&cNo Permission'
+set_spawn_message: '&b&lAtlanta: &fSpawn Point Updated'
+broadcast_message: '&b&lAtlanta - &7%message%'
+day_time_message: '&fTime has been set to &bDay &7(Client Side)'
+night_time_message: '&fTime has been set to &bDay &7(Client Side)'
+
+###############################################
+#__________               .__                 #
+#\______   \_____    _____|__| ____   ______  #
+# |    |  _/\__  \  /  ___/  |/ ___\ /  ___/  #
+# |    |   \ / __ \_\___ \|  \  \___ \___ \   #
+# |______  /(____  /____  >__|\___  >____  >  #
+#        \/      \/     \/        \/     \/   #
+###############################################
+
+allow_hub_flight: false
+disable_mob_spawning: true
+disable_player_damage: true
+disable_block_breaking: true
+disable_block_placing: true
+disable_bucket_fill: true
+disable_bucket_empty: true
+disable_item_dropping: true
+disable_item_pickups: true
+disable_hunger: true
+disable_entity_damage: true
+force_survival_on_logon: true
+
+#CHAT FORMATTING
+format-chat: true
+format: '%playerName% &7%message%'
+
+################################################################################################################
+#  ___ ___         .__                              .___  __      __       .__                                 #
+# /   |   \   ____ |  | ______   _____    ____    __| _/ /  \    /  \ ____ |  |   ____  ____   _____   ____    #
+#/    ~    \_/ __ \|  | \____ \  \__  \  /    \  / __ |  \   \/\/   // __ \|  | _/ ___\/  _ \ /     \_/ __ \   #
+#\    Y    /\  ___/|  |_|  |_> >  / __ \|   |  \/ /_/ |   \        /\  ___/|  |_\  \__(  <_> )  Y Y  \  ___/   #
+# \___|_  /  \___  >____/   __/  (____  /___|  /\____ |    \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >  #
+#       \/       \/     |__|          \/     \/      \/         \/       \/          \/            \/     \/   #
+################################################################################################################
+
+welcome_message:
+  - '&7&m-----------------------------------------------------'
+  - '&fWelcome to &b&lAtlanta'
+  - '&fThis is the default welcome message'
+  - '&fYou can change this message in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+
+#Set the help message. Colour codes can be used
+help_message:
+  - '&7&m-----------------------------------------------------'
+  - '&fWelcome to &b&lAtlanta'
+  - '&fThis is the default help message'
+  - '&fYou can change this message in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+
+#################################################################################################
+#  _________                            _________      .__                 __                   #
+# /   _____/ _______  __ ___________   /   _____/ ____ |  |   ____   _____/  |_  ___________    #
+# \_____  \_/ __ \  \/ // __ \_  __ \  \_____  \_/ __ \|  | _/ __ \_/ ___\   __\/  _ \_  __ \   #
+# /        \  ___/\   /\  ___/|  | \/  /        \  ___/|  |_\  ___/\  \___|  | (  <_> )  | \/   #
+#/_______  /\___  >\_/  \___  >__|    /_______  /\___  >____/\___  >\___  >__|  \____/|__|      #
+#        \/     \/          \/                \/     \/          \/     \/                      #
+#################################################################################################
+
+#Server Selector Item Config
+server_selector_name: '&bServer Selector'
+selector_inv_title: '&7Server List'
+server_selector_lore: '&bRight Click &fto view avaliable servers'
+selector_inv_size: 9
+server_selector_inv_slot: 0
+
+#Configuration for Trios
+trios_info:
+  - '&7&m-----------------------------------------------------'
+  - '&fChange this in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+trios_item_title: '&5Trios'
+trios_queue_join_message: '&aYou have joined the queue for Trios'
+trios_queue_command: 'play trios'
+trios_selector_slot: 0
+
+#Configuration for info star
+server_info:
+  - '&7&m-----------------------------------------------------'
+  - '&fChange this in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+info_item_name: '&5ExemPvP'
+info_selector_slot: 8
+
+#Configuration for kits
+kits_info:
+  - '&7&m-----------------------------------------------------'
+  - '&fChange this in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+kits_item_name: '&5Kits'
+kits_selector_slot: 6
+kits_queue_join_message: '&aYou have joined the queue for Kits'
+kits_queue_command: 'play kits'
+
+#Configuration for build
+build_info:
+  - '&7&m-----------------------------------------------------'
+  - '&fChange this in &bconfig.yml'
+  - '&7&m-----------------------------------------------------'
+build_item_name: '&5Build'
+build_selector_slot: 2
+build_queue_join_message: '&aYou have joined the queue for Build'
+build_queue_command: 'play build'
+
+#################################################################
+#___________           .___          ___.           __    __    #
+#\_   _____/ ____    __| _/__________\_ |__  __ ___/  |__/  |_  #
+# |    __)_ /    \  / __ |/ __ \_  __ \ __ \|  |  \   __\   __\ #
+# |        \   |  \/ /_/ \  ___/|  | \/ \_\ \  |  /|  |  |  |   #
+#/_______  /___|  /\____ |\___  >__|  |___  /____/ |__|  |__|   #
+#        \/     \/      \/    \/          \/                    #
+#################################################################
+enderbutt_name: '&bEnderpearl'
+enderbutt_slot: 8
+amount_of_pearls: 1
+
+online-donor-message:
+  1: '&7&m----------------------------------'
+  2: '&7Online &b&lATLANTA &7donators: &b%donors%'
+  3: '&7&m----------------------------------'

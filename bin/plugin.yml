@@ -1,0 +1,35 @@
+name: Atlanta
+version: ${project.version}-b${BUILD_NUMBER}
+main: xyz.invisraidinq.atlanta.Atlanta
+author: InvisRaidinq
+commands:
+  setspawn:
+    description: Admin Command
+    permission: ehub.setspawn
+  store:
+    aliases: [shop]
+    description: Visit the server store
+  discord:
+    aliases: [dc, disc]
+    description: Join our discord
+  help:
+    description: Pretty obvious
+  broadcast:
+    description: Broadcast a message to the server
+    aliases: [bc]
+    permission: ehub.broadcast
+  ping:
+    description: Check your ping
+  day:
+    description: Set your client side time to day
+  night:
+    description: Set your client side time to night
+  message:
+    description: Message another player
+    aliases: [m, msg, w, whisper]
+  reply:
+    description: Reply to a message
+    aliases: [r]
+  teamspeak:
+    description: Get the servers teamspeak
+    aliases: [ts, ts3]
